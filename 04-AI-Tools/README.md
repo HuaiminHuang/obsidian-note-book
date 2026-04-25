@@ -21,12 +21,21 @@ tags: [ai, tools, codeium, copilot, claude, opencode, omo]
   - [[llama.cpp/concepts/opencode-model-variants]] - OpenCode 模型变体机制
   - [[llama.cpp/code/whisper-commands]] - whisper.cpp 常用命令速查
   - [[llama.cpp/troubleshooting/whisper-gpu-speed]] - GPU 推理加速配置
+  - [[llama.cpp/concepts/qwen3-embedding-local]] - Qwen3-Embedding-0.6B 本地部署与配置
 
 ## OpenCode
 
 - [[opencode-overview]] - OpenCode 概述与 Oh My OpenAgent 插件配置
 - [[opencode/troubleshooting/opencode-omo-install-failure]] - OMO 插件安装失败完整排查
 - [[opencode/troubleshooting/opencode-proxy-config]] - 代理配置问题排查
+
+## OpenClaw
+
+- [[openclaw/]] - OpenClaw 记忆系统（Embedding + Dreaming + Wiki）
+  - [[openclaw/concepts/memory-system-overview]] - 记忆系统总览与配置详解
+  - [[openclaw/concepts/memory-wiki-overview]] - Memory Wiki 插件与知识编译
+  - [[openclaw/code/openclaw-memory-config.json]] - 完整记忆系统配置参考
+  - [[openclaw/troubleshooting/openclaw-config-clobber]] - 配置文件被覆盖问题排查
 
 ## 学习重点
 
