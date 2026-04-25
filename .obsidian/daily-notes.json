@@ -1,0 +1,8 @@
+{
+  "templateFileLocation": "templates/daily-note.md",
+  "folder": "01-Daily",
+  "dateFormat": "YYYY-MM-DD",
+  "newFileLocation": "folder",
+  "newFileLocationPath": "01-Daily",
+  "locale": "zh-CN"
+}

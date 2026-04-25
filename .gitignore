@@ -1,0 +1,10 @@
+# Obsidian diff workspace
+workspace*.json
+
+# vscode env settings
+.vscode/
+
+# rootsql files
+opencode.db-*
+*.sql
+
