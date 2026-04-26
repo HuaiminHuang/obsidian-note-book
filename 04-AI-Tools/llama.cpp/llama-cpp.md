@@ -132,7 +132,7 @@ cmake --build build --config Release -j 1
 
 ## 编译常见问题速查
 
-> 详细排障请参考 → [[../troubleshooting/llama-cpp-cuda-build-guide]]
+> 详细排障请参考 → [[troubleshooting/llama-cpp-cuda-build-guide]]
 
 | # | 问题 | 原因 | 解决方法 |
 |---|------|------|----------|
@@ -254,7 +254,7 @@ JSON 结构化输出（使用 grammar）：
 
 ## 相关笔记
 
-- [[../troubleshooting/llama-cpp-cuda-build-guide]] - CUDA 编译安装排障指南
+- [[troubleshooting/llama-cpp-cuda-build-guide]] - CUDA 编译安装排障指南
 - [[llama.cpp/concepts/whisper-cpp-usage]] - whisper.cpp 语音识别引擎
 - [[llama.cpp/concepts/opencode-model-variants]] - OpenCode 模型变体机制
 

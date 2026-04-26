@@ -29,6 +29,7 @@ OpenClaw 是一个 AI 智能体平台（版本 2026.4.23），内置多层记忆
 
 - [[concepts/memory-system-overview]] - 记忆系统总览与配置详解
 - [[concepts/memory-wiki-overview]] - Memory Wiki 插件与知识编译
+- [[concepts/exec-security-allowlist]] - Exec 安全策略与白名单机制
 
 ### 代码示例（`code/`）
 

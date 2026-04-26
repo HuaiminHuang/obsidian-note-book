@@ -34,6 +34,7 @@ tags: [ai, tools, codeium, copilot, claude, opencode, omo]
 - [[openclaw/]] - OpenClaw 记忆系统（Embedding + Dreaming + Wiki）
   - [[openclaw/concepts/memory-system-overview]] - 记忆系统总览与配置详解
   - [[openclaw/concepts/memory-wiki-overview]] - Memory Wiki 插件与知识编译
+  - [[openclaw/concepts/exec-security-allowlist]] - Exec 安全策略与白名单机制
   - [[openclaw/code/openclaw-memory-config.json]] - 完整记忆系统配置参考
   - [[openclaw/troubleshooting/openclaw-config-clobber]] - 配置文件被覆盖问题排查
 
@@ -47,7 +48,7 @@ tags: [ai, tools, codeium, copilot, claude, opencode, omo]
 
 ### 问题排查 (`troubleshooting/`)
 
-- [[troubleshooting/llama-cpp-cuda-build-guide]] - llama.cpp CUDA 编译安装排障指南
+- [[llama.cpp/troubleshooting/llama-cpp-cuda-build-guide]] - llama.cpp CUDA 编译安装排障指南
 
 ## 相关资源
 
