@@ -15,7 +15,7 @@ tags: [ai, tools, codeium, copilot, claude, opencode, omo]
 
 ### llama.cpp 生态
 
-- [[llama-cpp]] - 本地 LLM 推理引擎 (C/C++, CUDA, GGUF)
+- [[llama.cpp/llama-cpp]] - 本地 LLM 推理引擎 (C/C++, CUDA, GGUF)
 - [[llama.cpp/]]
   - [[llama.cpp/concepts/whisper-cpp-usage]] - whisper.cpp 语音识别引擎
   - [[llama.cpp/concepts/opencode-model-variants]] - OpenCode 模型变体机制
@@ -25,7 +25,7 @@ tags: [ai, tools, codeium, copilot, claude, opencode, omo]
 
 ## OpenCode
 
-- [[opencode-overview]] - OpenCode 概述与 Oh My OpenAgent 插件配置
+- [[opencode/overview]] - OpenCode 概述与 Oh My OpenAgent 插件配置
 - [[opencode/troubleshooting/opencode-omo-install-failure]] - OMO 插件安装失败完整排查
 - [[opencode/troubleshooting/opencode-proxy-config]] - 代理配置问题排查
 

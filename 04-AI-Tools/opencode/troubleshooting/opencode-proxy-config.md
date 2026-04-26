@@ -3,7 +3,7 @@ title: OpenCode 代理配置问题排查
 date: 2026-04-19
 tags: [ai, opencode, troubleshooting, proxy, wsl2, bashrc, profile]
 status: completed
-related: "[[opencode-overview]]"
+related: "[[../overview]]"
 ---
 
 # OpenCode 代理配置问题排查
@@ -123,5 +123,5 @@ opencode debug agent sisyphus --print-logs --log-level DEBUG
 
 ## 相关笔记
 
-- [[opencode-overview]] - OpenCode 概述与正常安装流程
+- [[../overview]] - OpenCode 概述与正常安装流程
 - [[opencode/troubleshooting/opencode-omo-install-failure]] - OMO 安装失败完整排查

@@ -9,7 +9,7 @@ status: learning
 
 ## 项目概述
 
-[[../../04-AI-Tools/llama-cpp]] - llama.cpp LLM 推理引擎（核心笔记）
+[[llama-cpp]] - llama.cpp LLM 推理引擎（核心笔记）
 
 llama.cpp 生态包含多个子项目，支持本地 LLM 推理和语音识别。
 

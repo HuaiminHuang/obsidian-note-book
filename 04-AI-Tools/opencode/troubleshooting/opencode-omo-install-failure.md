@@ -4,7 +4,7 @@ date: 2026-04-19
 tags: [ai, opencode, omo, troubleshooting, proxy, npm]
 status: completed
 difficulty: advanced
-related: "[[opencode-overview]]"
+related: "[[../overview]]"
 ---
 
 # OpenCode OMO 插件安装失败排查
@@ -191,5 +191,5 @@ cd ~/.config/opencode && npm install oh-my-openagent@latest
 
 ## 相关笔记
 
-- [[opencode-overview]] - OpenCode 概述与正常安装流程
+- [[../overview]] - OpenCode 概述与正常安装流程
 - [[opencode/troubleshooting/opencode-proxy-config]] - 代理配置问题排查
