@@ -5,7 +5,10 @@ tags: [ide, tools]
 
 # IDE 和工具
 
-## 工具列表
+## 目录内容
+
+### 概念知识 (`concepts/`)
+- [[VSCode-终端快捷键与设置]] - PSReadLine 快捷键映射 + 终端配置 + 括号引导线
 
 ### Windsurf
 - [[Windsurf/windsurf-codeium-download-issue]] - Codeium 插件下载问题解决
