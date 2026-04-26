@@ -257,8 +257,8 @@ class AdminUser(BaseUser):
 
 ## 相关笔记
 
-- [[FastAPI]] - FastAPI Web 框架
-- [[Flask]] - Flask Web 框架
+- [[fastapi]] - FastAPI Web 框架
+- [[flask]] - Flask Web 框架
 
 ---
 

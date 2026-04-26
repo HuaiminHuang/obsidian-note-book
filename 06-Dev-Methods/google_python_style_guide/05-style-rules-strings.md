@@ -1,6 +1,7 @@
 ---
 title: Google Python Style Guide - 风格规则（字符串）
 date: 2026-03-15
+status: completed
 tags: [python, style-guide, google]
 source: https://google.github.io/styleguide/pyguide.html
 ---
@@ -99,7 +100,7 @@ Don't do this.
 
 ## 3.10.1 Logging 日志
 
-对于期望模式字符串（带有 %-占位符）作为第一个参数的日志函数：始终使用字符串字面量（不是 f-string！）作为第一个参数调用它们，模式参数作为后续参数。某些日志实现将未展开的模式字符串收集为可查询字段。这也避免了在没有记录器配置为输出时花费时间渲染消息。
+对于期望模式字符串（带有 %-占位符）作为第一个参数的日志函数：始终使用字符串字面量（不是 f-string！）作为第一个参数调用它们，模式参数作为后续参数。某些日志啰。某些日志实现将未展开的模式字符串收集为可查询字段。这也避免了在没有记录器配置为输出时花费时间渲染消息。
 
 ```python
   Yes:

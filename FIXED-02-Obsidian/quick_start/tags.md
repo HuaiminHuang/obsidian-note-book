@@ -1,3 +1,10 @@
+---
+title: Tags
+date: 2026-03-15
+tags: [obsidian, quick-start]
+status: completed
+---
+
 # 标签系统
 
 使用 `#` 符号为笔记添加分类标签。

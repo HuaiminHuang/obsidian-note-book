@@ -1,6 +1,8 @@
 ---
 title: 知识库索引
 tags: [index, navigation]
+date: 2026-03-15
+status: completed
 ---
 
 # 知识库索引

@@ -4,7 +4,7 @@ tags: [ide/vscode, ide/settings, ide/terminal]
 status: completed
 difficulty: easy
 time_spent: 30min
-created: 2026-04-26
+date: 2026-04-26
 updated: 2026-04-26
 ---
 

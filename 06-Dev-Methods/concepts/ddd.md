@@ -1,10 +1,10 @@
 ---
 title: DDD - 领域驱动设计
 tags: [development, ddd, domain-driven-design]
-status: learning
+status: completed
 difficulty: advanced
 time_spent: 3h
-created: 2026-03-15
+date: 2026-03-15
 updated: 2026-03-15
 ---
 
@@ -194,10 +194,10 @@ class OrderItem:  # 业务术语：订单项
 
 ## 相关笔记
 
-- [[Entity]] - 实体对象
-- [[BO]] - 业务对象
-- [[Specs]] - 规范模式
-- [[TDD]] - 测试驱动开发
+- [[entity]] - 实体对象
+- [[bo]] - 业务对象
+- [[specs]] - 规范模式
+- [[tdd]] - 测试驱动开发
 
 ---
 

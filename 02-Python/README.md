@@ -3,7 +3,8 @@ title: Python 学习
 tags:
   - python
   - learning
-date: 2000-03-14
+date: 2026-03-15
+status: completed
 ---
 
 # Python 学习

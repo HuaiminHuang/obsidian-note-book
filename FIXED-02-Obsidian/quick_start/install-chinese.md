@@ -1,3 +1,10 @@
+---
+title: Install Chinese
+date: 2026-03-15
+tags: [obsidian, quick-start]
+status: completed
+---
+
 # 配置中文环境
 
 为 Obsidian 配置完整的中文支持。

@@ -4,6 +4,7 @@ tags:
   - development
   - methodology
 date: 2026-03-15
+status: completed
 ---
 
 # 开发方法和规范
@@ -15,14 +16,14 @@ date: 2026-03-15
 ## 目录内容
 
 ### 概念知识 (`concepts/`)
-- [[DTO]] - 数据传输对象
-- [[VO]] - 视图对象
-- [[PO]] - 持久化对象
-- [[BO]] - 业务对象
-- [[Entity]] - 实体对象
-- [[Specs]] - 规范模式
-- [[DDD]] - 领域驱动设计
-- [[TDD]] - 测试驱动开发
+- [[dto]] - 数据传输对象
+- [[vo]] - 视图对象
+- [[po]] - 持久化对象
+- [[bo]] - 业务对象
+- [[entity]] - 实体对象
+- [[specs]] - 规范模式
+- [[ddd]] - 领域驱动设计
+- [[tdd]] - 测试驱动开发
 
 ### 代码示例 (`code/`)
 - [[dto-example.py]] - DTO 示例

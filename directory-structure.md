@@ -1,6 +1,8 @@
 ---
 title: 知识库目录结构
 tags: [structure, overview]
+date: 2026-03-15
+status: completed
 ---
 
 # 知识库目录结构

@@ -1,3 +1,10 @@
+---
+title: Callouts
+date: 2026-03-15
+tags: [obsidian, quick-start]
+status: completed
+---
+
 # Callout 信息块
 
 Obsidian 的 Callout 语法用于突出显示重要信息。

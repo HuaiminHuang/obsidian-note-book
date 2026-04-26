@@ -1,3 +1,10 @@
+---
+title: Links
+date: 2026-03-15
+tags: [obsidian, quick-start]
+status: completed
+---
+
 # 双向链接
 
 Obsidian 最核心的特性，用 `[[ ]]` 语法创建笔记间的连接。

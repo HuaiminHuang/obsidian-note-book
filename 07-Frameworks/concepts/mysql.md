@@ -322,9 +322,9 @@ users = repo.get_users_by_age(20, 30)
 
 ## 相关笔记
 
-- [[SQLAlchemy]] - SQLAlchemy ORM 框架
-- [[Redis]] - Redis 数据库
-- [[Milvus]] - Milvus 向量数据库
+- [[sqlalchemy]] - SQLAlchemy ORM 框架
+- [[redis]] - Redis 数据库
+- [[milvus]] - Milvus 向量数据库
 
 ---
 

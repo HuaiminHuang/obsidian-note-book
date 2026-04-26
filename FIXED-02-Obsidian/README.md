@@ -1,6 +1,8 @@
 ---
 title: Obsidian 使用指南
 tags: [obsidian, tool, guide]
+date: 2026-03-15
+status: completed
 ---
 
 # Obsidian 使用指南

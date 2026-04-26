@@ -1,6 +1,7 @@
 ---
 title: Google Python Style Guide - 结束语
 date: 2026-03-15
+status: completed
 tags: [python, style-guide, google]
 source: https://google.github.io/styleguide/pyguide.html
 ---

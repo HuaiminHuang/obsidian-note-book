@@ -2,7 +2,7 @@
 title: Ubuntu 使用指南
 date: 2026-03-15
 tags: [ubuntu, linux]
-status: active
+status: completed
 ---
 
 # Ubuntu 使用指南

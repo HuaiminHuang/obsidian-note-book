@@ -1,6 +1,8 @@
 ---
 title: AI 工具使用
 tags: [ai, tools, codeium, copilot, claude, opencode, omo]
+date: 2026-03-15
+status: completed
 ---
 
 # AI 工具使用

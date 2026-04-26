@@ -249,8 +249,8 @@ if __name__ == "__main__":
 
 ## 相关笔记
 
-- [[FastAPI]] - FastAPI Web 框架
-- [[SQLAlchemy]] - Python ORM
+- [[fastapi]] - FastAPI Web 框架
+- [[sqlalchemy]] - Python ORM
 
 ---
 

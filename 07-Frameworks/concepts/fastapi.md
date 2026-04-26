@@ -193,8 +193,8 @@ async def create_user(user: UserCreate, db: Session = Depends(get_db)):
 
 ## 相关笔记
 
-- [[Flask]] - Flask Web 框架
-- [[SQLAlchemy]] - Python ORM
+- [[flask]] - Flask Web 框架
+- [[sqlalchemy]] - Python ORM
 
 ---
 

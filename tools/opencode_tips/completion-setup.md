@@ -1,3 +1,10 @@
+---
+title: Completion Setup
+date: 2026-03-15
+tags: [opencode, setup]
+status: completed
+---
+
 # OpenCode 自动补全配置
 
 > [!NOTE]

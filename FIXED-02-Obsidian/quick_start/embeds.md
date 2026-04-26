@@ -1,3 +1,10 @@
+---
+title: Embeds
+date: 2026-03-15
+tags: [obsidian, quick-start]
+status: completed
+---
+
 # 嵌入内容
 
 使用 `!` 前缀嵌入其他笔记或媒体文件。

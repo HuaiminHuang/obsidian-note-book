@@ -5,7 +5,7 @@ tags: [ai/openclaw, ai/security, ai/exec-policy]
 status: learning
 difficulty: intermediate
 time_spent: 2h
-created: 2026-04-26
+
 updated: 2026-04-26
 ---
 

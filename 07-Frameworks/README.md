@@ -18,12 +18,12 @@ status: learning
 ## 目录内容
 
 ### 概念知识 (`concepts/`)
-- [[FastAPI]] - 现代高性能 Web 框架
-- [[Flask]] - 轻量级 Web 框架
-- [[SQLAlchemy]] - Python ORM 框架
-- [[Milvus]] - 开源向量数据库
-- [[Redis]] - 内存数据库
-- [[MySQL]] - 关系型数据库
+- [[fastapi]] - 现代高性能 Web 框架
+- [[flask]] - 轻量级 Web 框架
+- [[sqlalchemy]] - Python ORM 框架
+- [[milvus]] - 开源向量数据库
+- [[redis]] - 内存数据库
+- [[mysql]] - 关系型数据库
 
 ### 代码示例 (`code/`)
 - [[fastapi-example.py]] - FastAPI 示例
@@ -37,7 +37,7 @@ status: learning
 - [[milvus-connect-issue]] - Milvus 连接问题
 
 ### DrissionPage (`DrissionPage/`)
-- [[DrissionPage/run_js]] - 浏览器内 Fetch 模式 (run_js + Promise)
+- [[DrissionPage/run-js]] - 浏览器内 Fetch 模式 (run_js + Promise)
 - [[DrissionPage/tls-fingerprint-and-inner-fetch]] - TLS 指纹导致 requests 被静默拒绝
 
 ## 相关资源

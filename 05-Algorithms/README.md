@@ -1,6 +1,8 @@
 ---
 title: 数据结构和算法
 tags: [algorithm, data-structure]
+date: 2026-03-15
+status: completed
 ---
 
 # 数据结构和算法

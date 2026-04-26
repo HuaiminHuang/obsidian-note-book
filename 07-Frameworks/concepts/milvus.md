@@ -220,8 +220,8 @@ results = collection.search(
 
 ## 相关笔记
 
-- [[Redis]] - Redis 数据库
-- [[MySQL]] - MySQL 数据库
+- [[redis]] - Redis 数据库
+- [[mysql]] - MySQL 数据库
 
 ---
 

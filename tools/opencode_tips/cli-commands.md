@@ -1,3 +1,10 @@
+---
+title: CLI Commands
+date: 2026-03-15
+tags: [opencode, cli]
+status: completed
+---
+
 # OpenCode CLI 命令速查
 
 > [!TIP]

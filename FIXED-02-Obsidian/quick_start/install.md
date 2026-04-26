@@ -1,3 +1,10 @@
+---
+title: Install
+date: 2026-03-15
+tags: [obsidian, quick-start]
+status: completed
+---
+
 # Obsidian 安装指南
 
 在 Linux (Ubuntu) 上安装 Obsidian 的完整流程。

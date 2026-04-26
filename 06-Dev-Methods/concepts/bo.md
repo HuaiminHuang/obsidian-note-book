@@ -1,10 +1,10 @@
 ---
 title: BO - 业务对象
 tags: [development, bo, business-object]
-status: learning
+status: completed
 difficulty: intermediate
 time_spent: 1h
-created: 2026-03-15
+date: 2026-03-15
 updated: 2026-03-15
 ---
 
@@ -133,11 +133,11 @@ finally:
 
 ## 相关笔记
 
-- [[DTO]] - 数据传输对象
-- [[VO]] - 视图对象
-- [[PO]] - 持久化对象
-- [[Entity]] - 实体对象
-- [[DDD]] - 领域驱动设计
+- [[dto]] - 数据传输对象
+- [[vo]] - 视图对象
+- [[po]] - 持久化对象
+- [[entity]] - 实体对象
+- [[ddd]] - 领域驱动设计
 
 ---
 

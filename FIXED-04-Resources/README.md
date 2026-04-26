@@ -1,6 +1,8 @@
 ---
 title: 资源收集
 tags: [resources, docs, blogs, videos]
+date: 2026-03-15
+status: completed
 ---
 
 # 资源收集

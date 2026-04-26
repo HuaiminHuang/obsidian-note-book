@@ -1,3 +1,10 @@
+---
+title: Obsidian Quick Start
+date: 2026-03-15
+tags: [obsidian, quick-start]
+status: completed
+---
+
 # Obsidian 快速入门
 
 Obsidian 是一个基于本地 Markdown 的知识管理工具，相比普通 Markdown 有以下独特特性。

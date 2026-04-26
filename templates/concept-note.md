@@ -4,7 +4,7 @@ tags: [{{tags}}]
 status: learning
 difficulty: {{difficulty}}
 time_spent: {{time_spent}}
-created: {{date}}
+date: {{date}}
 updated: {{date}}
 ---
 

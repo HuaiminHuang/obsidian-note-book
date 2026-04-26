@@ -1,10 +1,10 @@
 ---
 title: TDD - 测试驱动开发
 tags: [development, tdd, test-driven-development]
-status: learning
+status: completed
 difficulty: advanced
 time_spent: 3h
-created: 2026-03-15
+date: 2026-03-15
 updated: 2026-03-15
 ---
 
@@ -230,9 +230,9 @@ def test_register_user(user_service):
 
 ## 相关笔记
 
-- [[DDD]] - 领域驱动设计
-- [[BO]] - 业务对象
-- [[Specs]] - 规范模式
+- [[ddd]] - 领域驱动设计
+- [[bo]] - 业务对象
+- [[specs]] - 规范模式
 
 ---
 

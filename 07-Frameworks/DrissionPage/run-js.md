@@ -2,7 +2,7 @@
 title: 浏览器内 Fetch 模式 (run_js + Promise)
 tags: [framework, drissionpage, fetch, javascript]
 date: 2026-04-18
-status: verified
+status: completed
 difficulty: advanced
 ---
 

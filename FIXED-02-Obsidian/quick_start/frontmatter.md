@@ -1,3 +1,10 @@
+---
+title: Frontmatter
+date: 2026-03-15
+tags: [obsidian, quick-start]
+status: completed
+---
+
 # Frontmatter 元数据
 
 在笔记开头使用 YAML 格式定义元数据。

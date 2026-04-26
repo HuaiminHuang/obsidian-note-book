@@ -1,10 +1,10 @@
 ---
 title: Specs - 规范模式
 tags: [development, specs, specification]
-status: learning
+status: completed
 difficulty: intermediate
 time_spent: 1h
-created: 2026-03-15
+date: 2026-03-15
 updated: 2026-03-15
 ---
 
@@ -162,9 +162,9 @@ except ValueError as e:
 
 ## 相关笔记
 
-- [[DDD]] - 领域驱动设计
-- [[BO]] - 业务对象
-- [[TDD]] - 测试驱动开发
+- [[ddd]] - 领域驱动设计
+- [[bo]] - 业务对象
+- [[tdd]] - 测试驱动开发
 
 ---
 

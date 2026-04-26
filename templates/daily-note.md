@@ -2,6 +2,7 @@
 title: {{date}}-学习{{title}}
 tags: [daily, learning]
 date: {{date}}
+status: learning
 topics: [{{topics}}]
 duration: {{duration}}
 ---

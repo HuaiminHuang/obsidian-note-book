@@ -1,3 +1,10 @@
+---
+title: Install FUSE
+date: 2026-03-15
+tags: [obsidian, quick-start]
+status: completed
+---
+
 # 解决 FUSE 依赖
 
 AppImage 运行时缺少 FUSE 库的错误处理。

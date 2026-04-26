@@ -2,6 +2,7 @@
 title: {{date}}-待办事项
 tags: [todo]
 date: {{date}}
+status: pending
 priority: {{priority}}
 deadline: {{deadline}}
 ---

@@ -1,6 +1,8 @@
 ---
 title: IDE 和工具
 tags: [ide, tools]
+date: 2026-03-15
+status: completed
 ---
 
 # IDE 和工具

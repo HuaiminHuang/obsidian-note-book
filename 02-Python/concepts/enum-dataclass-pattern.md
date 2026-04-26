@@ -3,7 +3,7 @@ title: Enum与dataclass组合模式
 tags: [python, python/advanced, python/enum, python/dataclass]
 status: completed
 difficulty: intermediate
-created: 2026-03-29
+date: 2026-03-29
 updated: 2026-03-29
 ---
 

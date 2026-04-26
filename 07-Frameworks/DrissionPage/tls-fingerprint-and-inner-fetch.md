@@ -2,7 +2,7 @@
 title: TLS 指纹与浏览器内 Fetch
 tags: [framework, drissionpage, tls, fingerprint, troubleshooting]
 date: 2026-04-18
-status: verified
+status: completed
 difficulty: advanced
 ---
 

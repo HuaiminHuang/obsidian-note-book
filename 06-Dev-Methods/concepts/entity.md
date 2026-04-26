@@ -1,10 +1,10 @@
 ---
 title: Entity - 实体对象
 tags: [development, entity, domain-entity]
-status: learning
+status: completed
 difficulty: intermediate
 time_spent: 1h
-created: 2026-03-15
+date: 2026-03-15
 updated: 2026-03-15
 ---
 
@@ -137,9 +137,9 @@ def __hash__(self):
 
 ## 相关笔记
 
-- [[DDD]] - 领域驱动设计
-- [[PO]] - 持久化对象
-- [[BO]] - 业务对象
+- [[ddd]] - 领域驱动设计
+- [[po]] - 持久化对象
+- [[bo]] - 业务对象
 - [[Value Object]] - 值对象
 
 ---

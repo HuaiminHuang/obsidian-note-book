@@ -1,3 +1,10 @@
+---
+title: Install AppImage
+date: 2026-03-15
+tags: [obsidian, quick-start]
+status: completed
+---
+
 # AppImage 安装
 
 下载并配置 Obsidian AppImage 版本。

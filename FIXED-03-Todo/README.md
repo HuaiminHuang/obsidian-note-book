@@ -1,6 +1,8 @@
 ---
 title: 待办事项管理
 tags: [todo, tasks]
+date: 2026-03-15
+status: completed
 ---
 
 # 待办事项管理

@@ -263,8 +263,8 @@ print(session)  # {'user_id': 123, 'created_at': ...}
 
 ## 相关笔记
 
-- [[Milvus]] - Milvus 向量数据库
-- [[MySQL]] - MySQL 数据库
+- [[milvus]] - Milvus 向量数据库
+- [[mysql]] - MySQL 数据库
 
 ---
 
