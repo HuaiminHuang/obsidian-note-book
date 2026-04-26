@@ -82,7 +82,7 @@ nvcc fatal : Unsupported gpu architecture 'compute_89'
 
 **原因分析**: 默认使用 `-j $(nproc)` 启动 20 个并行 nvcc 编译进程，每个 nvcc 进程占用数 GB 内存，7.6GB RAM 完全不够，导致 OOM Killer 介入。
 
-**解决方法**: 使用 `-j 1` 单线程编译，牺牲速度换取稳定性。
+**解决方法**: 根据可用内存调整并行度，如 `-j 2` 或 `-j 1`，避免 OOM。
 
 ---
 
@@ -141,7 +141,7 @@ cmake -B build -DGGML_CUDA=ON \
   -DCMAKE_CUDA_COMPILER=/usr/local/cuda-12.8/bin/nvcc \
   -DCMAKE_CUDA_ARCHITECTURES=89
 
-# 编译（单线程，避免 OOM）
+# 编译（根据内存调整并行度，如 -j 2）
 cmake --build build --config Release -j 1
 
 # ============================================
@@ -158,7 +158,7 @@ cmake --build build --config Release -j 1
 | `-DGGML_CUDA=ON` | - | 启用 CUDA 加速 |
 | `-DCMAKE_CUDA_COMPILER` | `/usr/local/cuda-12.8/bin/nvcc` | 显式指定 nvcc 路径，避免 PATH 冲突 |
 | `-DCMAKE_CUDA_ARCHITECTURES` | `89` | 只编译 sm_89（RTX 40 系列 Ada 架构） |
-| `-j 1` | - | 单线程编译，避免 7.6GB RAM OOM |
+| `-j 1` | - | 低内存机器按需调整并行度 |
 
 ## 验证步骤
 
@@ -213,7 +213,7 @@ ggml_cuda_init: found 1 CUDA devices (Total VRAM: 8187 MiB):
 | CUDA Toolkit 未找到 | 未安装开发包 | `apt install cuda-toolkit-12-8` | ✅ |
 | compute_89 不支持 | CUDA 版本过低（11.5） | 升级到 CUDA 12.8 | ✅ |
 | nvcc 版本仍然旧 | PATH 中旧版优先 | 调整 PATH + 显式指定编译器 | ✅ |
-| 编译进程被杀 | 20 并行进程 OOM | 使用 `-j 1` 单线程 | ✅ |
+| 编译进程被杀 | 20 并行进程 OOM | 按内存调整 `-j` 并行度 | ✅ |
 | 编译超时 | 编译 7 个架构 | `-DCMAKE_CUDA_ARCHITECTURES=89` | ✅ |
 
 ---

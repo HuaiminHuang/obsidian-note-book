@@ -33,7 +33,7 @@ OpenClaw 是一个 AI 智能体平台（版本 2026.4.23），内置多层记忆
 
 ### 代码示例（`code/`）
 
-- [[code/openclaw-memory-config.json]] - 完整记忆系统配置参考
+- [[code/openclaw-memory-config]] - 完整记忆系统配置参考
 
 ### 问题排查（`troubleshooting/`）
 

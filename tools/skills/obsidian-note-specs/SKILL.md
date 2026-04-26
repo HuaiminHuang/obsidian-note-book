@@ -105,6 +105,39 @@ templates/          # 模板库
 - **代码文件**：`[[文件名.扩展名]]`
 - **带描述**：`[[装饰器]] - 学习装饰器的使用和原理`
 
+### 双向链接路径层级规则
+
+不同层级使用不同的路径格式：
+
+```
+主题根目录/README.md
+  → 同级笔记:    [[note-name]]              # 同级内
+  → 子目录笔记:  [[note-name]]              # Obsidian 自动解析，无需前缀
+
+主题根目录/concepts/note.md
+  → 同级概念:    [[other-note]]             # 同 subdir，文件名即可
+  → 兄弟 code:   [[../code/script]]         # 跨 subdir，用 ../ 相对路径
+  → 兄弟 troubleshooting: [[../troubleshooting/issue]]
+  → 唯一文件名:  [[globally-unique-name]]   # 全库唯一时可直接用文件名
+
+主题根目录/troubleshooting/note.md
+  → 同级:        [[other-note]]
+  → 兄弟:        [[../concepts/note]]
+
+跨主题目录（如 llama.cpp/ → openclaw/）
+  → 使用 vault 绝对路径: [[主题名/子目录/文件名]]
+    避免多层 ../../../
+```
+
+**路径选择原则**：
+
+| 范围 | 格式 | 示例 | 理由 |
+|------|------|------|------|
+| 同级 subdir 内 | `[[文件名]]` | `[[memory-system-overview]]` | 简洁，Obsidian 自动匹配 |
+| 跨 subdir (同主题) | `[[../子目录/文件名]]` | `[[../code/whisper-commands]]` | 子模块整体搬迁时内部链接不断 |
+| 跨子主题 (从主题根 README) | `[[子主题/子目录/文件名]]` | `[[llama.cpp/concepts/qwen3-embedding-local]]` | README 在主题根目录，可直接引用同级目录 |
+| 跨子主题 (从 subdir 内部) | `[[../../子主题/子目录/文件名]]` | `[[../../llama.cpp/concepts/qwen3-embedding-local]]` | 需要先 `../` 回到主题根目录 |
+
 ### 错误格式（❌ 不要这样）
 
 - `装饰器` - 没有 `[[ ]]`

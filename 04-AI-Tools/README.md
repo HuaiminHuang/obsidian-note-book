@@ -18,7 +18,7 @@ tags: [ai, tools, codeium, copilot, claude, opencode, omo]
 - [[llama.cpp/llama-cpp]] - 本地 LLM 推理引擎 (C/C++, CUDA, GGUF)
 - [[llama.cpp/]]
   - [[llama.cpp/concepts/whisper-cpp-usage]] - whisper.cpp 语音识别引擎
-  - [[llama.cpp/concepts/opencode-model-variants]] - OpenCode 模型变体机制
+  - [[opencode/concepts/opencode-model-variants]] - OpenCode 模型变体机制
   - [[llama.cpp/code/whisper-commands]] - whisper.cpp 常用命令速查
   - [[llama.cpp/troubleshooting/whisper-gpu-speed]] - GPU 推理加速配置
   - [[llama.cpp/concepts/qwen3-embedding-local]] - Qwen3-Embedding-0.6B 本地部署与配置
@@ -35,7 +35,7 @@ tags: [ai, tools, codeium, copilot, claude, opencode, omo]
   - [[openclaw/concepts/memory-system-overview]] - 记忆系统总览与配置详解
   - [[openclaw/concepts/memory-wiki-overview]] - Memory Wiki 插件与知识编译
   - [[openclaw/concepts/exec-security-allowlist]] - Exec 安全策略与白名单机制
-  - [[openclaw/code/openclaw-memory-config.json]] - 完整记忆系统配置参考
+  - [[openclaw/code/openclaw-memory-config]] - 完整记忆系统配置参考
   - [[openclaw/troubleshooting/openclaw-config-clobber]] - 配置文件被覆盖问题排查
 
 ## 学习重点

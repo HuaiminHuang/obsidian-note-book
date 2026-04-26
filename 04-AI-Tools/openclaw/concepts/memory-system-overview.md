@@ -108,8 +108,8 @@ openclaw config schema              # 输出完整 JSON schema
 
 ## 相关笔记
 
-- [[concepts/memory-wiki-overview]]
-- [[troubleshooting/openclaw-config-clobber]]
+- [[memory-wiki-overview]]
+- [[../troubleshooting/openclaw-config-clobber]]
 - [[../../llama.cpp/concepts/qwen3-embedding-local]] - Qwen3-Embedding 模型详情
 - [[../../llama.cpp/]] - llama.cpp 生态
 

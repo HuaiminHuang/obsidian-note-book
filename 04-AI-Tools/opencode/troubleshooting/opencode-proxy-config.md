@@ -124,4 +124,4 @@ opencode debug agent sisyphus --print-logs --log-level DEBUG
 ## 相关笔记
 
 - [[../overview]] - OpenCode 概述与正常安装流程
-- [[opencode/troubleshooting/opencode-omo-install-failure]] - OMO 安装失败完整排查
+- [[opencode-omo-install-failure]] - OMO 安装失败完整排查

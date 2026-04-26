@@ -101,11 +101,11 @@ cmake --build build --config Release -j
 
 ## 相关命令
 
-- [[llama.cpp/code/whisper-commands]] - whisper.cpp 常用命令速查
+- [[../code/whisper-commands]] - whisper.cpp 常用命令速查
 
 ## 相关笔记
 
-- [[llama.cpp/troubleshooting/whisper-gpu-speed]] - GPU 推理加速配置
+- [[../troubleshooting/whisper-gpu-speed]] - GPU 推理加速配置
 
 ---
 

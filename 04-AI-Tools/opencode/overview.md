@@ -4,7 +4,7 @@ date: 2026-04-19
 tags: [ai, opencode, omo, plugin, zai-coding-plan]
 status: completed
 aliases: [OpenCode, OMO, Oh My OpenAgent]
-related: "[[opencode/troubleshooting/opencode-omo-install-failure]]"
+related: "[[troubleshooting/opencode-omo-install-failure]]"
 ---
 
 # OpenCode 概述
@@ -126,6 +126,6 @@ OpenCode 的插件安装是**独立的两步过程**：
 
 ## 相关笔记
 
-- [[opencode/troubleshooting/opencode-omo-install-failure]] - OMO 安装失败完整排查
-- [[opencode/troubleshooting/opencode-proxy-config]] - 代理配置问题排查
-- [[llama.cpp/concepts/opencode-model-variants]] - OpenCode 模型变体机制（DeepSeek V4 reasoning effort）
+- [[troubleshooting/opencode-omo-install-failure]] - OMO 安装失败完整排查
+- [[troubleshooting/opencode-proxy-config]] - 代理配置问题排查
+- [[concepts/opencode-model-variants]] - OpenCode 模型变体机制（DeepSeek V4 reasoning effort）

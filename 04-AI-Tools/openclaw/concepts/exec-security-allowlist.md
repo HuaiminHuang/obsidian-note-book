@@ -172,8 +172,8 @@ openclaw config validate
 
 ## 相关笔记
 
-- [[openclaw/troubleshooting/openclaw-config-clobber]] - 配置文件被覆盖问题排查
-- [[openclaw/concepts/memory-system-overview]] - 记忆系统总览与配置详解
+- [[../troubleshooting/openclaw-config-clobber]] - 配置文件被覆盖问题排查
+- [[memory-system-overview]] - 记忆系统总览与配置详解
 
 ---
 

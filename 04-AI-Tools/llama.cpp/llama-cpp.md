@@ -255,8 +255,8 @@ JSON 结构化输出（使用 grammar）：
 ## 相关笔记
 
 - [[troubleshooting/llama-cpp-cuda-build-guide]] - CUDA 编译安装排障指南
-- [[llama.cpp/concepts/whisper-cpp-usage]] - whisper.cpp 语音识别引擎
-- [[llama.cpp/concepts/opencode-model-variants]] - OpenCode 模型变体机制
+- [[concepts/whisper-cpp-usage]] - whisper.cpp 语音识别引擎
+- [[../opencode/concepts/opencode-model-variants]] - OpenCode 模型变体机制
 
 ---
 

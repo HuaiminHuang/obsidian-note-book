@@ -96,5 +96,5 @@ claims:
 
 ## 相关笔记
 
-- [[concepts/memory-system-overview]]
-- [[troubleshooting/openclaw-config-clobber]]
+- [[memory-system-overview]]
+- [[../troubleshooting/openclaw-config-clobber]]

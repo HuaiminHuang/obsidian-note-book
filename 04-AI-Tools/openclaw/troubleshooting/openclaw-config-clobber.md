@@ -75,4 +75,4 @@ openclaw wiki status        # 检查 wiki
 
 ## 相关笔记
 
-- [[concepts/memory-system-overview]]
+- [[../concepts/memory-system-overview]]

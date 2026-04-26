@@ -7,6 +7,8 @@ status: completed
 
 # whisper.cpp 常用命令速查
 
+> 详细用法参考 → [[../concepts/whisper-cpp-usage]]
+
 ## 编译
 
 ```bash
@@ -23,26 +25,36 @@ cmake --build build --config Release -j
 
 ```bash
 # 基本转写
-whisper-cli -m ~/models/ggml-whisper/ggml-large-v3-turbo.bin -f audio.wav
+~/whisper.cpp/build/bin/whisper-cli \
+  -m ~/models/ggml-whisper/ggml-large-v3-turbo.bin \
+  -f audio.wav
 
 # 中文音频
-whisper-cli -m ~/models/ggml-whisper/ggml-large-v3-turbo.bin -f audio.wav -l zh
+~/whisper.cpp/build/bin/whisper-cli \
+  -m ~/models/ggml-whisper/ggml-large-v3-turbo.bin \
+  -f audio.wav -l zh
 
 # CPU 多线程
-whisper-cli -m ~/models/ggml-whisper/ggml-large-v3-turbo.bin -f audio.wav -l zh -t 20
+~/whisper.cpp/build/bin/whisper-cli \
+  -m ~/models/ggml-whisper/ggml-large-v3-turbo.bin \
+  -f audio.wav -l zh -t 20
 
 # 输出带时间戳
-whisper-cli -m ~/models/ggml-whisper/ggml-large-v3-turbo.bin -f audio.wav -l zh -t 20 -ot
+~/whisper.cpp/build/bin/whisper-cli \
+  -m ~/models/ggml-whisper/ggml-large-v3-turbo.bin \
+  -f audio.wav -l zh -t 20 -ot
 
-# 翻译为英文（task = translate）
-whisper-cli -m ~/models/ggml-whisper/ggml-large-v3-turbo.bin -f audio.wav -l zh -tr
+# 翻译为英文
+~/whisper.cpp/build/bin/whisper-cli \
+  -m ~/models/ggml-whisper/ggml-large-v3-turbo.bin \
+  -f audio.wav -l zh -tr
 ```
 
 ## 编译输出位置
 
 | 命令 | 路径 |
 |------|------|
-| CPU 编译（make） | `~/whisper.cpp/main` |
+| CPU 编译（make） | `~/whisper.cpp/build/bin/whisper-cli` |
 | CUDA 编译（cmake） | `~/whisper.cpp/build/bin/whisper-cli` |
 
 ## 模型下载

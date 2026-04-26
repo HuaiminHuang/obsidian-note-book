@@ -1,8 +1,15 @@
-// OpenClaw 记忆系统完整配置参考
-// 配置文件位置：~/.openclaw/openclaw.json
-// 配置版本：OpenClaw 2026.4.23
-// Embedding 模型：qwen3-embedding:0.6B (via Ollama)
-// 日期：2026-04-26
+---
+title: OpenClaw 记忆系统完整配置参考
+date: 2026-04-26
+tags: [ai/openclaw, memory, config, embedding]
+status: completed
+---
+
+# OpenClaw 记忆系统完整配置参考
+
+配置文件位置：`~/.openclaw/openclaw.json`
+
+```json
 {
   "agents": {
     "defaults": {
@@ -97,3 +104,4 @@
     }
   }
 }
+```

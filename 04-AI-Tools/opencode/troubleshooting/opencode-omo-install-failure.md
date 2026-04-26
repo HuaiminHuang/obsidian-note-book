@@ -192,4 +192,4 @@ cd ~/.config/opencode && npm install oh-my-openagent@latest
 ## 相关笔记
 
 - [[../overview]] - OpenCode 概述与正常安装流程
-- [[opencode/troubleshooting/opencode-proxy-config]] - 代理配置问题排查
+- [[opencode-proxy-config]] - 代理配置问题排查
