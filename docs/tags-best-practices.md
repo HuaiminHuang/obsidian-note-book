@@ -1,11 +1,8 @@
 ---
 title: Tag 和 Frontmatter 最佳实践
 date: 2026-03-14
-created: 2026-03-14
-updated: 2026-03-15
 tags: [docs, best-practices, tags, frontmatter]
-status: active
-version: 2.0
+status: completed
 ---
 
 # Tag 和 Frontmatter 最佳实践
@@ -24,14 +21,15 @@ version: 2.0
 ```yaml
 ---
 title: 标题
+date: YYYY-MM-DD
 tags: [tag1, tag2]
+status: learning|completed|archived
 ---
 ```
 
 **推荐字段**：
-- `date: YYYY-MM-DD` - 日期
-- `status: learning|completed|archived` - 状态
 - `difficulty: easy|intermediate|advanced` - 难度
+- `time_spent: 2h` - 学习时长
 
 ### 2. Tag 规范
 

@@ -22,10 +22,8 @@ ObsidianNote/
 │   └── troubleshooting/         # 问题排查
 ├── 03-IDE-Tools/                # IDE 和工具
 │   ├── README.md                # 工具索引
-│   ├── VSCode/                  # VSCode 相关
-│   │   ├── plugins.md           # 常用插件
-│   │   ├── debugging.md         # 调试技巧
-│   │   └── config.md            # 配置选项
+│   ├── vscode-basic/            # VSCode 配置笔记
+│   │   └── vscode-terminal-keybindings-settings.md
 │   └── Windsurf/                # Windsurf 相关
 ├── 04-AI-Tools/                 # AI 工具使用
 │   ├── README.md                # AI 工具索引
@@ -44,25 +42,25 @@ ObsidianNote/
 ├── 06-Dev-Methods/              # 开发方法和规范
 │   ├── README.md                # 开发方法索引
 │   ├── concepts/                # 概念知识
-│   │   ├── DTO.md               # 数据传输对象
-│   │   ├── VO.md                # 视图对象
-│   │   ├── PO.md                # 持久化对象
-│   │   ├── BO.md                # 业务对象
-│   │   ├── Entity.md            # 实体对象
-│   │   ├── Specs.md             # 规范模式
-│   │   ├── DDD.md               # 领域驱动设计
-│   │   └── TDD.md               # 测试驱动开发
+│   │   ├── dto.md               # 数据传输对象
+│   │   ├── vo.md                # 视图对象
+│   │   ├── po.md                # 持久化对象
+│   │   ├── bo.md                # 业务对象
+│   │   ├── entity.md            # 实体对象
+│   │   ├── specs.md             # 规范模式
+│   │   ├── ddd.md               # 领域驱动设计
+│   │   └── tdd.md               # 测试驱动开发
 │   ├── code/                    # 代码示例
 │   └── troubleshooting/         # 问题排查
 ├── 07-Frameworks/               # 框架和技术
 │   ├── README.md                # 框架技术索引
 │   ├── concepts/                # 概念知识
-│   │   ├── FastAPI.md           # FastAPI Web 框架
-│   │   ├── Flask.md             # Flask Web 框架
-│   │   ├── SQLAlchemy.md        # Python ORM 框架
-│   │   ├── Milvus.md            # 向量数据库
-│   │   ├── Redis.md             # 内存数据库
-│   │   └── MySQL.md             # 关系型数据库
+│   │   ├── fastapi.md           # FastAPI Web 框架
+│   │   ├── flask.md             # Flask Web 框架
+│   │   ├── sqlalchemy.md        # Python ORM 框架
+│   │   ├── milvus.md            # 向量数据库
+│   │   ├── redis.md             # 内存数据库
+│   │   └── mysql.md             # 关系型数据库
 │   ├── code/                    # 代码示例
 │   └── troubleshooting/         # 问题排查
 ├── FIXED-01-Ubuntu/             # Linux/Ubuntu 使用指南（固定）
@@ -145,11 +143,11 @@ ObsidianNote/
    - 07-Frameworks：框架和技术
    - ... 新增学习内容使用连续编号
 
-2. **固定目录**：FIXED-01 至 FIXED-99（使用FIXED前缀标记）
-   - FIXED-01-Ubuntu：Linux/Ubuntu 使用指南
-   - FIXED-02-Obsidian：Obsidian 使用指南
-   - FIXED-03-Todo：待办事项管理
-   - FIXED-04-Resources：资源收集（始终最后）
+2. **固定目录**：FIXED-01 至 FIXED-99（使用FIXED前缀标记，编号固定不变）
+   - FIXED-01-Ubuntu：Linux/Ubuntu 使用指南（固定）
+   - FIXED-02-Obsidian：Obsidian 使用指南（固定）
+   - FIXED-03-Todo：待办事项管理（固定）
+   - FIXED-04-Resources：资源收集（固定，始终最后）
 
 3. **特殊目录**：不参与序号排序
    - tools/：opencode 工具配置
@@ -158,7 +156,7 @@ ObsidianNote/
 
 4. **新增规则**：
    - 新学习内容目录直接使用下一个编号（如：08-Database）
-   - 固定目录使用FIXED前缀，无需调整编号
+   - 固定目录使用FIXED前缀，编号固定不变，无需调整
    - FIXED-04-Resources 始终保持最后
 
 ## 相关文档

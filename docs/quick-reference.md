@@ -1,11 +1,8 @@
 ---
 title: 快速参考
 date: 2026-03-14
-created: 2026-03-14
-updated: 2026-03-15
 tags: [docs, reference, quick-start]
-status: active
-version: 2.0
+status: completed
 ---
 
 # 快速参考
@@ -52,10 +49,9 @@ status: resolved
 ```yaml
 ---
 title: 文档标题
+date: YYYY-MM-DD
 tags: [docs, type]
-created: YYYY-MM-DD
-updated: YYYY-MM-DD
-version: 1.0
+status: completed
 ---
 ```
 
@@ -101,7 +97,7 @@ tags: [status/archived]    # 已归档
 | 链接类型 | 格式 | 示例 |
 |---------|------|------|
 | 链接同级文件 | `[[文件名]]` | `[[装饰器]]` |
-| 链接子目录文件 | `[[子目录/文件名]]` | `[[VSCode/plugins]]` |
+| 链接子目录文件 | `[[子目录/文件名]]` | `[[vscode-basic/vscode-terminal-keybindings-settings]]` |
 | 链接目录 | `[[目录名/]]` | `[[Python/]]` |
 | 代码文件 | `[[文件名.扩展名]]` | `[[decorator.py]]` |
 | 带描述 | `[[文件名]] - 描述` | `[[装饰器]] - 学习装饰器` |
@@ -122,7 +118,7 @@ tags: [status/archived]    # 已归档
 | 概念笔记 | `templates/concept-note.md` | title, tags, status |
 | 问题排查 | `templates/troubleshooting.md` | title, tags, status, date |
 | 待办事项 | `templates/todo.md` | title, tags, date |
-| 文档笔记 | `templates/doc-note.md` | title, tags, created, updated |
+| 文档笔记 | `templates/doc-note.md` | title, tags, date, status |
 | 资源收集 | 手动创建 | title, tags, source |
 
 ## 字段说明
@@ -138,9 +134,8 @@ tags: [status/archived]    # 已归档
 | priority | string | 优先级 | `high/medium/low` |
 | source | string | 资源链接 | `https://example.com` |
 | aliases | array | 别名 | `[Codeium 下载问题]` |
-| created | string | 创建日期（文档） | `2026-03-14` |
-| updated | string | 更新日期（文档） | `2026-03-15` |
-| version | string | 版本号（文档） | `1.0` |
+| date | string | 日期（必需） | `2026-03-14` |
+| status | string | 状态（必需） | `learning/completed/archived` |
 
 ## 常见错误速查
 

@@ -1,11 +1,8 @@
 ---
 title: Agent 文档管理操作指南
 date: 2026-03-14
-created: 2026-03-14
-updated: 2026-03-15
 tags: [docs, agent, guide, operations]
-status: active
-version: 2.0
+status: completed
 ---
 
 # Agent 文档管理操作指南
@@ -44,9 +41,9 @@ version: 2.0
 
 ### 3. 文件命名规范
 
-- 概念笔记：中文或英文（`装饰器.md`, `decorator.md`）
-- 代码文件：保留扩展名（`decorator.py`）
-- 问题排查：kebab-case（`wsl2-memory-compression.md`）
+- Concept notes: English kebab-case (`decorator.md`, `wsl2-optimization.md`)
+- Code files: keep original extension (`decorator.py`)
+- Troubleshooting: kebab-case (`wsl2-memory-compression-release.md`)
 
 ### 4. 模板系统优先
 
@@ -118,8 +115,8 @@ FIXED-04-Resources/ ← 固定目录，始终在最后
 
 ✅ **正确**：
 ```
-装饰器.md
 python-decorator.md
+decorator.md
 ```
 
 ## 相关资源

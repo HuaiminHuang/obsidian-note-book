@@ -1,11 +1,8 @@
 ---
 title: 知识库结构设计
 date: 2026-03-14
-created: 2026-03-14
-updated: 2026-03-15
 tags: [docs, design, knowledge-base]
-status: active
-version: 2.0
+status: completed
 ---
 
 # 知识库结构设计
@@ -108,7 +105,9 @@ FIXED-04-Resources/ # 资源收集（固定，始终最后）
 ```yaml
 ---
 title: 标题
+date: YYYY-MM-DD
 tags: [tag1, tag2]
+status: learning|completed|archived
 ---
 ```
 
@@ -116,19 +115,8 @@ tags: [tag1, tag2]
 
 ```yaml
 ---
-date: YYYY-MM-DD
-status: learning|completed|archived
 difficulty: easy|intermediate|advanced
----
-```
-
-### 文档专用字段
-
-```yaml
----
-created: YYYY-MM-DD
-updated: YYYY-MM-DD
-version: X.Y
+time_spent: 2h
 ---
 ```
 
@@ -154,7 +142,7 @@ version: X.Y
 ## 相关资源
 
 - [[tools/skills/obsidian-note-specs]] - 完整的 Obsidian 笔记规范
-- [[tools/skills/AGENTS]] - Agent 全局配置
+- [[tools/skills/agents-to-notes]] - Agent 全局配置
 - [[docs/agent-operations]] - Agent 文档管理操作指南
 - [[docs/tags-best-practices]] - Tag 和 Frontmatter 最佳实践
 - [[directory-structure]] - 知识库目录结构
