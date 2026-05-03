@@ -14,8 +14,8 @@ Tailscale 是一个基于 WireGuard 的 P2P VPN，用于将多台设备组成一
 ```mermaid
 graph TB
     subgraph WSL2[Mk - WSL2 Ubuntu 100.124.24.56]
-        SSH[SSHD :22]
-        OC[OpenClaw :18878]
+        SSH[SSHD]
+        OC[OpenClaw]
         Ollama[Ollama]
         TS1[Tailscale]
     end

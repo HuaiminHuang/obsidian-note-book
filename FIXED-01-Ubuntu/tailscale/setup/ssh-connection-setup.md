@@ -21,13 +21,13 @@ graph TB
     end
 
     subgraph WSL2[Mk - WSL2 Ubuntu]
-        C[SSHD :22]
+        C[SSHD]
         D[h2mzzz 用户]
         E[~/.ssh/authorized_keys]
     end
 
     A -->|ssh h2mzzz@100.124.24.56| B
-    B -->|到达 100.124.24.56:22| C
+    B -->|到达 100.124.24.56| C
     C -->|验证身份| D
     D -->|检查密钥| E
 ```
