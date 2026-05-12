@@ -31,6 +31,10 @@ status: completed
 - [[opencode/troubleshooting/opencode-omo-install-failure]] - OMO 插件安装失败完整排查
 - [[opencode/troubleshooting/opencode-proxy-config]] - 代理配置问题排查
 
+## MinerU
+
+- [[mineru/mineru-install]] - MinerU 安装、使用、踩坑记录
+
 ## OpenClaw
 
 - [[openclaw/]] - OpenClaw 记忆系统（Embedding + Dreaming + Wiki）
