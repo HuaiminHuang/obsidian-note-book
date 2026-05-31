@@ -390,9 +390,11 @@ Python: `for item in array:`
 
 ## 相关笔记
 
-- [[ts-type-system]] - TypeScript 类型系统（待创建）
-- [[ts-async]] - 异步编程 Promise/async-await（待创建）
-- [[ts-project-structure]] - Node.js 项目结构（待创建）
+- [[ts-type-system]] - TypeScript 类型系统
+- [[ts-async]] - 异步编程 Promise/async-await
+- [[ts-utility-types]] - Record、Partial、Pick、Omit
+- [[ts-generics]] - 泛型
+- [[ts-common-syntax]] - 常用语法速查
 
 ---
 
